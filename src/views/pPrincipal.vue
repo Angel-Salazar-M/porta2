@@ -6,14 +6,14 @@
     <div class="card bg-black/55 grid grid-cols-2 rounded-2xl shadow-md w-3/5 mx-auto m-10">
         <div class="grid grid-rows-[auto,1fr] px-5">
             <div class="">
-                <h1 class="black-han-sans-regular">Angel</h1>
+                <h1 class="barlow-condensed-black ">Ángel</h1>
                 <h1 class="text-right black-han-sans-regular text-[#BB0000]">Salazar</h1>
             </div>
             <div class="py-2">
-                <span>Mi nombre es Ángel Salazar, estudiante de bachillerato cursando último daño y nota media de 9.
-                    Buscando aprender brindar mis conocimientos y desenvolverme en departamentos relacionados a
+                <span>Mi nombre es Ángel Gustavo Salazar Mendoza, estudiante de bachillerato cursando último año y con nota media de 9.
+                    Buscando aprender, brindar mis conocimientos y desenvolverme en áreas relacionadas a
                     programación o
-                    traducción de documentos de Inglés a español y viceversa.</span>
+                    traducción de documentos de Inglés a Español y viceversa.</span>
             </div>
             <div class="grid place-content-center">
                 <a href="https://www.canva.com/design/DAGwLszw0rE/ss0ULp6fkxn1ZVR6TCSV-A/view?utm_content=DAGwLszw0rE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h02c4b2843b"
@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="w-50 aspect-[5/6] overflow-hidden rounded-xl mx-auto my-auto">
-            <img src="C:\Users\gusta\porta2\src\assets\image.png" alt="" class="w-fit h-fit object-cover">
+            <img src="C:\Users\gusta\porta2\src\assets\image1.png" alt="" class="w-fit h-fit object-cover">
         </div>
     </div>
 
@@ -47,11 +47,11 @@
         </div>
         <div class="grid grid-rows-[auto,1fr] px-5">
             <div class="m-2 mx-auto">
-                <span class="text-center black-han-sans-regular text-3xl">Centro Superate!<br></br></span>
-                <span class="text-center black-han-sans-regular text-3xl">Fundacion Poma</span>
+                <span class="barlow-condensed-black  text-3xl">Centro ¡Superate!<br></br></span>
+                <span class="barlow-condensed-black  text-3xl">Fundación Poma</span>
             </div>
             <div class="m-2">
-                <span>Durante mi participación en el programa de becas del Centro ¡Supérate! FUndación
+                <span>Durante mi participación en el programa de becas del Centro ¡Supérate! Fundación
                     Poma elaboré distintos proyectos realcionados con tecnología y lenguajes de programación, además de
                     realizar
                     certificaciones en inglés y en herramientas tecnológicas como Excel y Python.</span>
@@ -63,7 +63,7 @@
         </div>
     </div>
     <div class="grid place-content-center mt-15 mb-10">
-        <h1 class="black-han-sans-regular">Mis habilidades</h1>
+        <h1 class="barlow-condensed-black">Mis habilidades</h1>
     </div>
 
     <div class="grid grid-rows-2">
@@ -72,7 +72,7 @@
                 class="card bg-[#F90E0E]/20 grid rounded-2xl shadow-md opacity-90 w-auto mx-auto m-10 place-content-center">
                 <div class="grid grid-rows-[auto,1fr] mx-auto">
                     <div>
-                        <h1 class="black-han-sans-regular">Programacion</h1>
+                        <h1 class="barlow-condensed-black ">Programación</h1>
                     </div>
                     <div class="grid grid-rows-4 mx-auto mt-10 w-fit">
                         <div class="w-72"> <!-- ancho fijo -->
@@ -123,7 +123,7 @@
                 class="card bg-[#F90E0E]/20 grid rounded-2xl shadow-md opacity-90 w-auto mx-auto m-10 place-content-center">
                 <div class="grid grid-rows-[auto,1fr] mx-auto">
                     <div>
-                        <h1 class="text-center black-han-sans-regular">Idiomas</h1>
+                        <h1 class="text-center barlow-condensed-black ">Idiomas</h1>
                     </div>
                     <div class="grid grid-rows-3 mx-auto mt-10 w-fit">
                         <div class="w-72"> <!-- ancho fijo -->
@@ -165,7 +165,7 @@
             class="card bg-[#F90E0E]/20 grid rounded-2xl shadow-md opacity-90 w-auto mx-auto m-10 place-content-center">
             <div class="grid grid-rows-[auto,1fr] mx-auto">
                 <div>
-                    <h1 class="text-center black-han-sans-regular">Cualidades</h1>
+                    <h1 class="text-center barlow-condensed-black ">Cualidades</h1>
                 </div>
                 <div class="grid grid-rows-7 mx-auto mt-10 w-fit">
                     <div class="mx-auto"> <!-- ancho fijo -->
@@ -194,7 +194,7 @@
         </div>
 
         <div class="grid place-content-center mt-15 mb-10">
-            <h1 class="black-han-sans-regular">Habilidades tecnicas</h1>
+            <h1 class="barlow-condensed-black ">Habilidades técnicas</h1>
         </div>
 
         <div class="card bg-[#D9D9D9]/20 grid rounded-2xl shadow-md opacity-90 w-9/10 mx-auto m-10">
@@ -233,17 +233,21 @@
                 </div>
                 <div class="grid grid-cols-4 grid-rows-1 w-80 place-self-end">
                     <div>
-                        <img src="C:\Users\gusta\porta2\src\assets\github.png" alt="" class="w-12 h-12">
-                    </div>
-                    <div>
-                        <img src="C:\Users\gusta\porta2\src\assets\linkedin.png" alt="" class="w-12 h-12">
-                    </div>
-                    <div>
-                        <img src="C:\Users\gusta\porta2\src\assets\envelope.png" alt="" class="w-12 h-12">
-                    </div>
-                    <div>
-                        <img src="C:\Users\gusta\porta2\src\assets\instagram.png" alt="" class="w-12 h-12">
-                    </div>
+          <a href="https://www.linkedin.com/in/angel-salazar-a8541a38b"><img
+              src="C:\Users\gusta\porta2\src\assets\linkedin.png" alt="" class="w-13 h-13"></a>
+
+        </div>
+        <div>
+          <a href="https://github.com/Angel-Salazar-M"><img src="C:\Users\gusta\porta2\src\assets\github.png" alt=""
+              class="w-12 h-12"></a>
+        </div>
+        <div><a href="mailto:gustavosalazar.200713@gmail.com"><img src="C:\Users\gusta\porta2\src\assets\envelope.png"
+              alt="" class="w-14 h-14"></a>
+
+        </div>
+        <div>
+            <a href="https://www.instagram.com/angel_gggsm"><img src="C:\Users\gusta\porta2\src\assets\instagram.png" alt="" class="w-14 h-14"></a>
+        </div>
                 </div>
             </div>
         </div>
