@@ -1,31 +1,37 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+
 </script>
 
 <template>
   <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    <div
+      class="bg-gradient-to-br from-black to-[#E51515] grid grid-cols-2 grid-rows-1 place-self-start w-full h-16 mb-10 ">
+      <div class="grid grid-cols-3 w-70">
+        <div class="grid col-start-1 place-content-center my-auto">
+          <router-link to="/home">Inicio</router-link>
+        </div>
+        <div class="grid col-start-2 place-content-start my-auto w-auto w-80">
+          <router-link to="/categorias">Categorias</router-link>
+        </div>
+        <div class="grid col-start-3 place-content-start my-auto w-auto w-80">
+        </div>
+      </div>
+      <div class="grid grid-cols-3 w-60 place-self-end place-items-center place-content-center my-auto">
+        <div>
+          <img src="C:\Users\gusta\porta2\src\assets\linkedin.png" alt="" class="w-10 h-10">
+        </div>
+        <div>
+          <img src="C:\Users\gusta\porta2\src\assets\github.png" alt="" class="w-12 h-12">
+        </div>
+        <div>
+          <img src="C:\Users\gusta\porta2\src\assets\envelope.png" alt="" class="w-14 h-14">
+        </div>
+
+      </div>
+    </div>
   </div>
-  <HelloWorld msg="Vite + Vue" />
-  
+   <router-view />
+   
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<style></style>

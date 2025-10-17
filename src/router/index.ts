@@ -1,17 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import pantallaPrincipal from '../views/pantallaPrincipal.vue'
+import categorias from '../views/categorias.vue'
+import pPrincipal from '../views/pPrincipal.vue'
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
-    component: pantallaPrincipal
+    path: '/categorias',
+    name: 'categorias',
+    component: categorias
   },
   {
-    path: '/about',
-    name: 'about',
-    component: () => import('../views/pantallaPrincipal.vue')
-  }
+    path: '/home',
+    name: 'home',
+    component: pPrincipal
+  },
 ]
 
 const router = createRouter({
