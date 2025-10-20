@@ -74,8 +74,8 @@ import footerCard from '../components/footerCard.vue'
         <span>Un sitio web creado para que los usuarios puedan almacenar, mostrar y administrar su historial médico y
             sus prescripciones médicas, todo de manera accesible y digital.</span>
     </div>
-    <div class="p-10">
-        <img src="C:\Users\gusta\porta2\src\assets\54040535566_aa1582ed53_o.jpg" alt="">
+    <div class="p-10 w-1/2 overflow-hidden rounded-xl mx-auto my-auto">
+        <img src="C:\Users\gusta\porta2\src\assets\54040535566_aa1582ed53_o.jpg" alt="" class="w-fit h-fit object-cover object-top rounded-xl">
     </div>
     <div class="ml-6">
 
@@ -118,12 +118,13 @@ import footerCard from '../components/footerCard.vue'
                 </div>
             </div>
         </div>
+
     </div>
-    <div class="grid grid-rows-2 grid-cols-2">
-        <div>
+    <div class="grid grid-rows-2 grid-cols-2 mt-10 px-8 mb-10">
+        <div class="p-10 w-1/2 overflow-hidden rounded-xl mx-auto my-auto">
             <img src="C:\Users\gusta\porta2\src\assets\Captura de pantalla 2025-09-21 175155.png" alt="">
         </div>
-        <div class="grid col-start-2 row-start-2">
+        <div class="grid col-start-2 row-start-2 p-10 w-1/2 overflow-hidden rounded-xl mx-auto my-auto">
             <img src="C:\Users\gusta\porta2\src\assets\Captura de pantalla 2025-09-21 175334.png" alt="">
         </div>
     </div>
