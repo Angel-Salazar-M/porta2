@@ -7,9 +7,9 @@ import footerCard from '../components/footerCard.vue'
     <div class="grid place-content-center mt-15 mb-10">
         <h1 class="black-han-sans-regular">SV-AIHEALTH - Hackathon 2023</h1>
     </div>
-    <div class="w-7/10 overflow-hidden rounded-xl mx-auto my-auto">
-        <img src="C:\Users\gusta\porta2\src\assets\Captura de pantalla 2025-09-21 174819.png" alt=""
-            class="w-fit h-fit object-cover object-top">
+    <div class="p-10 w-1/2 overflow-hidden rounded-xl mx-auto my-auto">
+        <img src="C:\Users\gusta\porta2\src\assets\Captura de pantalla 2025-09-21 143534.png" alt=""
+            class="w-fit h-fit object-cover object-top rounded-xl mx-auto">
     </div>
     <div class="grid grid-rows-3 gap-5 w-2/4 m-10 place-self-center">
         <div class="grid grid-rows-2 place-items-start bg-[#D9D9D9]/50 rounded-full px-4 py-2">
@@ -77,7 +77,7 @@ import footerCard from '../components/footerCard.vue'
              y compara con el formulario para revisar que no haya ningún ingrediente anteriormente escogido.</span>
     </div>
     <div class="p-10 w-1/2 overflow-hidden rounded-xl mx-auto my-auto">
-        <img src="C:\Users\gusta\porta2\src\assets\54040535566_aa1582ed53_o.jpg" alt="" class="w-fit h-fit object-cover object-top rounded-xl">
+        <img src="C:\Users\gusta\porta2\src\assets\Captura de pantalla 2025-09-21 143726.png" alt="" class="w-fit h-fit object-cover object-top rounded-xl mx-auto">
     </div>
     <div class="ml-6">
 
@@ -97,33 +97,33 @@ import footerCard from '../components/footerCard.vue'
         <div class="px-4 py-12 grid place-items-center">
             <span class="barlow-condensed-black text-3xl">Resultados</span>
         </div>
-        <div class="grid grid-rows-3 gap-5 w-2/4 place-self-start h-40 px-4 mx-auto mb-15">
+        <div class="grid grid-rows-3 gap-5 w-2/4 place-self-start h-40 px-4 mx-auto">
             <div class="bg-[#D9D9D9]/50 rounded-full px-4 py-2">
                 <div class="grid place-content-center">
-                    <span class="">Menos problemas al entender información médica.</span>
+                    <span class="">Mayor conciencia en el consumo de alimentos.</span>
                 </div>
             </div>
 
             <div class="bg-[#D9D9D9]/50 rounded-full px-4 py-2">
                 <div class="grid place-content-center">
-                    <span class="">Aumento de eficiencia en trabajo de doctores.</span>
+                    <span class="">Accesibilidad a la información nutricional.</span>
                 </div>
             </div>
 
             <div class="bg-[#D9D9D9]/50 rounded-full px-4 py-2">
                 <div class="grid place-content-center">
-                    <span class="">Mejor conexión entre clínicas privadas.</span>
+                    <span class="">Acceso a opciones de alimento más saludable.</span>
                 </div>
             </div>
         </div>
 
     </div>
-    <div class="grid grid-rows-2 grid-cols-2 mt-10 px-8 mb-15">
-        <div class="overflow-hidden rounded-xl mx-auto my-auto">
-            <img src="C:\Users\gusta\porta2\src\assets\Captura de pantalla 2025-09-21 175155.png" alt="">
+    <div class="grid grid-rows-2 grid-cols-2 px-8 mb-15">
+        <div class="overflow-hidden rounded-xl grid place-self-end ">
+            <img src="C:\Users\gusta\porta2\src\assets\Captura de pantalla 2025-09-21 143903.png" alt="" class="w-fit h-fit object-cover object-top rounded-xl grid place-self-end">
         </div>
-        <div class="grid col-start-2 row-start-2 overflow-hidden rounded-xl mx-auto my-auto">
-            <img src="C:\Users\gusta\porta2\src\assets\Captura de pantalla 2025-09-21 175334.png" alt="">
+        <div class="grid col-start-2 row-start-2 overflow-hidden rounded-xl my-auto">
+            <img src="C:\Users\gusta\porta2\src\assets\Captura de pantalla 2025-09-21 144010.png" alt="" class="w-fit h-fit object-cover object-top rounded-xl grid palce-self-start">
         </div>
     </div>
     <div class="px-10 py-12 grid place-items-center">
@@ -131,7 +131,7 @@ import footerCard from '../components/footerCard.vue'
         </div>
         <div class="grid grid-cols-3 h-fit gap-2 mt-2 w-2/4 place-self-center mb-10">
                 <div class="rounded-full border-4 border-white grid place-content-center">
-                    <span class="text-center">Power Apps</span>
+                    <span class="text-center">PowerApps</span>
                 </div>
                 <div class="rounded-full border-4 border-white grid place-content-center">
                     <span class="text-center">Microsoft lists</span>
@@ -139,9 +139,6 @@ import footerCard from '../components/footerCard.vue'
                 <div class="rounded-full border-4 border-white grid place-content-center">
                     <span class="text-center">Power Automate</span>
                 </div>
-            </div>
-            <div class="p-10 w-1/2 overflow-hidden rounded-xl mx-auto my-auto">
-                <img src="C:\Users\gusta\porta2\src\assets\54039671942_31a4c00029_o.jpg" alt="" class="w-fit h-fit object-cover object-top rounded-xl">
             </div>
     <footerCard />
 </template>

@@ -5,7 +5,7 @@ import footerCard from '../components/footerCard.vue'
 
 <template>
     <div class="grid place-content-center mt-15 mb-10">
-        <h1 class="black-han-sans-regular">ScriptGo - Expo de logros 2024</h1>
+        <h1 class="black-han-sans-regular">ScriptGo - ExpoTech 2025</h1>
     </div>
     <div class="w-7/10 overflow-hidden rounded-xl mx-auto my-auto">
         <img src="C:\Users\gusta\porta2\src\assets\Captura de pantalla 2025-09-21 174819.png" alt=""
@@ -62,7 +62,7 @@ import footerCard from '../components/footerCard.vue'
                 </div>
             </div>
             <div class="ml-14">
-                <span>Front-end developer, UXUI designer, Designer lead, Branding, Group leader</span>
+                <span>Front-end developer, UX/UI designer, Designer lead, Branding, Group leader</span>
             </div>
         </div>
     </div>
@@ -71,11 +71,15 @@ import footerCard from '../components/footerCard.vue'
         <span class="barlow-condensed-black text-3xl">Descripción</span>
     </div>
     <div class="px-4 w-2/4">
-        <span>Un sitio web creado para que los usuarios puedan almacenar, mostrar y administrar su historial médico y
-            sus prescripciones médicas, todo de manera accesible y digital.</span>
+        <span>Las personas tenían dificultades al atender nuevas clínicas y no tene run historial médico en esa clínica,
+            además de encontrar dificultades al leer, perder, o no entender las prescripciones médicas físicas. Con
+            mejoras como poder administrar cuentas apra menores de edad y personas de la tercera edad, conexión con
+            farmacias para poder comprar los medicamentos en línea por medio del sitio web, monetización por medio de
+            subcripciones tanto para doctores como pacientes, etc.</span>
     </div>
     <div class="p-10 w-1/2 overflow-hidden rounded-xl mx-auto my-auto">
-        <img src="C:\Users\gusta\porta2\src\assets\54040535566_aa1582ed53_o.jpg" alt="" class="w-fit h-fit object-cover object-top rounded-xl">
+        <img src="C:\Users\gusta\porta2\src\assets\54040535566_aa1582ed53_o.jpg" alt=""
+            class="w-fit h-fit object-cover object-top rounded-xl">
     </div>
     <div class="ml-6">
 
@@ -84,8 +88,7 @@ import footerCard from '../components/footerCard.vue'
         </div>
         <div class="px-4 w-2/4 mb-15">
             <span>Las personas tenían dificultades al atender nuevas clínicas y no tene run historial médico en esa
-                clínica,
-                además de encontrar dificultades al leer, perder, o no entender las prescripciones médicas
+                clínica, además de encontrar dificultades al leer, perder, o no entender las prescripciones médicas
                 físicas.</span>
         </div>
         <div class="p-4 grid">
@@ -93,8 +96,8 @@ import footerCard from '../components/footerCard.vue'
         </div>
         <div class="px-4 w-2/4 mb-15">
             <span>Un sitio web que permite a los usuarios, tanto pacientes como doctores, administrar la información
-                médica
-                de manera digital, segura, y fácil.</span>
+                médica de manera digital, segura, y fácil, además de crear una conexión segura con farmacias para
+                disminuir el tiempo de espera para medicamentos y aumentar la accesibilidad para los usuarios.</span>
         </div>
         <div class="px-4 py-12 grid place-items-center">
             <span class="barlow-condensed-black text-3xl">Resultados</span>
@@ -129,22 +132,23 @@ import footerCard from '../components/footerCard.vue'
         </div>
     </div>
     <div class="px-10 py-12 grid place-items-center">
-            <span class="barlow-condensed-black text-3xl">Tecnologías</span>
+        <span class="barlow-condensed-black text-3xl">Tecnologías</span>
+    </div>
+    <div class="grid grid-cols-3 h-fit gap-2 mt-2 w-2/4 place-self-center mb-10">
+        <div class="rounded-full border-4 border-white grid place-content-center">
+            <span class="text-center">VS-Code</span>
         </div>
-        <div class="grid grid-cols-3 h-fit gap-2 mt-2 w-2/4 place-self-center mb-10">
-                <div class="rounded-full border-4 border-white grid place-content-center">
-                    <span class="text-center">Power Apps</span>
-                </div>
-                <div class="rounded-full border-4 border-white grid place-content-center">
-                    <span class="text-center">Microsoft lists</span>
-                </div>
-                <div class="rounded-full border-4 border-white grid place-content-center">
-                    <span class="text-center">Power Automate</span>
-                </div>
-            </div>
-            <div class="p-10 w-1/2 overflow-hidden rounded-xl mx-auto my-auto">
-                <img src="C:\Users\gusta\porta2\src\assets\54039671942_31a4c00029_o.jpg" alt="" class="w-fit h-fit object-cover object-top rounded-xl">
-            </div>
+        <div class="rounded-full border-4 border-white grid place-content-center">
+            <span class="text-center">GitHub</span>
+        </div>
+        <div class="rounded-full border-4 border-white grid place-content-center">
+            <span class="text-center">Tailwind CSS</span>
+        </div>
+    </div>
+    <div class="p-10 w-1/2 overflow-hidden rounded-xl mx-auto my-auto">
+        <img src="C:\Users\gusta\porta2\src\assets\54039671942_31a4c00029_o.jpg" alt=""
+            class="w-fit h-fit object-cover object-top rounded-xl">
+    </div>
     <footerCard />
 </template>
 

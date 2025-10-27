@@ -133,13 +133,13 @@ import footerCard from '../components/footerCard.vue'
         </div>
         <div class="grid grid-cols-3 h-fit gap-2 mt-2 w-2/4 place-self-center mb-10">
                 <div class="rounded-full border-4 border-white grid place-content-center">
-                    <span class="text-center">Power Apps</span>
+                    <span class="text-center">VS-Code</span>
                 </div>
                 <div class="rounded-full border-4 border-white grid place-content-center">
-                    <span class="text-center">Microsoft lists</span>
+                    <span class="text-center">GitHub</span>
                 </div>
                 <div class="rounded-full border-4 border-white grid place-content-center">
-                    <span class="text-center">Power Automate</span>
+                    <span class="text-center">Tailwind CSS</span>
                 </div>
             </div>
             <div class="p-10 w-1/2 overflow-hidden rounded-xl mx-auto my-auto">
