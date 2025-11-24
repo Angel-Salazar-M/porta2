@@ -8,7 +8,7 @@ import footerCard from '../components/footerCard.vue'
         <h1 class="black-han-sans-regular">ScriptGo - ExpoTech 2025</h1>
     </div>
     <div class="w-7/10 overflow-hidden rounded-xl mx-auto my-auto">
-        <img src="C:\Users\gusta\porta2\src\assets\Captura de pantalla 2025-09-21 174819.png" alt=""
+        <img src="/src/assets/Captura de pantalla 2025-09-21 174819.png" alt=""
             class="w-fit h-fit object-cover object-top">
     </div>
     <div class="grid grid-rows-3 gap-5 w-2/4 m-10 place-self-center">
@@ -78,7 +78,7 @@ import footerCard from '../components/footerCard.vue'
             subcripciones tanto para doctores como pacientes, etc.</span>
     </div>
     <div class="p-10 w-1/2 overflow-hidden rounded-xl mx-auto my-auto">
-        <img src="C:\Users\gusta\porta2\src\assets\54040535566_aa1582ed53_o.jpg" alt=""
+        <img src="/src/assets/54040535566_aa1582ed53_o.jpg" alt=""
             class="w-fit h-fit object-cover object-top rounded-xl">
     </div>
     <div class="ml-6">
@@ -125,10 +125,10 @@ import footerCard from '../components/footerCard.vue'
     </div>
     <div class="grid grid-rows-2 grid-cols-2 mt-10 px-8 mb-15">
         <div class="overflow-hidden rounded-xl mx-auto my-auto">
-            <img src="C:\Users\gusta\porta2\src\assets\Captura de pantalla 2025-09-21 175155.png" alt="">
+            <img src="/src/assets/Captura de pantalla 2025-09-21 175155.png" alt="">
         </div>
         <div class="grid col-start-2 row-start-2 overflow-hidden rounded-xl mx-auto my-auto">
-            <img src="C:\Users\gusta\porta2\src\assets\Captura de pantalla 2025-09-21 175334.png" alt="">
+            <img src="/src/assets/Captura de pantalla 2025-09-21 175334.png" alt="">
         </div>
     </div>
     <div class="px-10 py-12 grid place-items-center">
@@ -146,7 +146,7 @@ import footerCard from '../components/footerCard.vue'
         </div>
     </div>
     <div class="p-10 w-1/2 overflow-hidden rounded-xl mx-auto my-auto">
-        <img src="C:\Users\gusta\porta2\src\assets\54039671942_31a4c00029_o.jpg" alt=""
+        <img src="/src/assets/54039671942_31a4c00029_o.jpg" alt=""
             class="w-fit h-fit object-cover object-top rounded-xl">
     </div>
     <footerCard />

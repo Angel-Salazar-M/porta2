@@ -1,6 +1,6 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import categorias from '../views/categorias.vue'
-import pPrincipal from '../views/pPrincipal.vue'
+import Index from '../views/Index.vue'
 import programacion from '../views/programacion.vue'
 import Certificaciones from '../views/certificaciones.vue'
 import idiomas from '../views/idiomas.vue'
@@ -24,9 +24,9 @@ const routes = [
   },
 
   {
-    path: '/home',
+    path: '/',
     name: 'home',
-    component: pPrincipal
+    component: Index
   },
 
   {
@@ -109,8 +109,9 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes
 })
+
 
 export default router
