@@ -10,7 +10,7 @@ import footerCard from '../components/footerCard.vue'
 
     <div class="card bg-black/55 grid grid-cols-2 rounded-2xl shadow-md opacity-90 w-3/5 mx-auto m-20">
         <div class="w-50 aspect-[5/6] overflow-hidden rounded-xl mx-auto my-auto">
-            <img src="/src/assets/Captura de pantalla 2025-09-21 143534.png" alt=""
+            <img src="@/assets/Captura de pantalla 2025-09-21 143534.png" alt=""
                 class="w-fit h-fit object-cover object-top">
         </div>
         <div class="grid grid-rows-4">
@@ -65,14 +65,14 @@ import footerCard from '../components/footerCard.vue'
 
         </div>
         <div class="w-80 overflow-hidden rounded-xl mx-auto my-auto">
-            <img src="/src/assets/54040535566_aa1582ed53_o.jpg" alt=""
+            <img src="@/assets/54040535566_aa1582ed53_o.jpg" alt=""
                 class="w-fit h-fit object-cover object-top">
         </div>
     </div>
 
     <div class="card bg-black/55 grid grid-cols-2 rounded-2xl shadow-md opacity-90 w-3/5 mx-auto m-20">
         <div class="w-80 overflow-hidden rounded-xl mx-auto my-auto">
-            <img src="/src/assets/54721510465_08b976b0b4_o.jpg" alt=""
+            <img src="@/assets/54721510465_08b976b0b4_o.jpg" alt=""
                 class="w-fit h-fit object-cover object-top">
         </div>
         <div class="grid grid-rows-4">

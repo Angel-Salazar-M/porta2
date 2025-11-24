@@ -8,7 +8,7 @@ import footerCard from '../components/footerCard.vue'
         <h1 class="black-han-sans-regular">SV-AIHEALTH - Hackathon 2023</h1>
     </div>
     <div class="p-10 w-1/2 overflow-hidden rounded-xl mx-auto my-auto">
-        <img src="/src/assets/Captura de pantalla 2025-09-21 143534.png" alt=""
+        <img src="@/assets/Captura de pantalla 2025-09-21 143534.png" alt=""
             class="w-fit h-fit object-cover object-top rounded-xl mx-auto">
     </div>
     <div class="grid grid-rows-3 gap-5 w-2/4 m-10 place-self-center">
@@ -77,7 +77,7 @@ import footerCard from '../components/footerCard.vue'
              y compara con el formulario para revisar que no haya ningún ingrediente anteriormente escogido.</span>
     </div>
     <div class="p-10 w-1/2 overflow-hidden rounded-xl mx-auto my-auto">
-        <img src="/src/assets/Captura de pantalla 2025-09-21 143726.png" alt="" class="w-fit h-fit object-cover object-top rounded-xl mx-auto">
+        <img src="@/assets/Captura de pantalla 2025-09-21 143726.png" alt="" class="w-fit h-fit object-cover object-top rounded-xl mx-auto">
     </div>
     <div class="ml-6">
 
@@ -120,10 +120,10 @@ import footerCard from '../components/footerCard.vue'
     </div>
     <div class="grid grid-rows-2 grid-cols-2 px-8 mb-15">
         <div class="overflow-hidden rounded-xl grid place-self-end ">
-            <img src="/src/assets/Captura de pantalla 2025-09-21 143903.png" alt="" class="w-fit h-fit object-cover object-top rounded-xl grid place-self-end">
+            <img src="@/assets/Captura de pantalla 2025-09-21 143903.png" alt="" class="w-fit h-fit object-cover object-top rounded-xl grid place-self-end">
         </div>
         <div class="grid col-start-2 row-start-2 overflow-hidden rounded-xl my-auto">
-            <img src="/src/assets/Captura de pantalla 2025-09-21 144010.png" alt="" class="w-fit h-fit object-cover object-top rounded-xl grid palce-self-start">
+            <img src="@/assets/Captura de pantalla 2025-09-21 144010.png" alt="" class="w-fit h-fit object-cover object-top rounded-xl grid palce-self-start">
         </div>
     </div>
     <div class="px-10 py-12 grid place-items-center">

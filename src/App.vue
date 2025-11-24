@@ -17,14 +17,14 @@
       <div class="grid grid-cols-3 w-60 place-self-end place-items-center place-content-center my-auto">
         <div>
           <a href="https://www.linkedin.com/in/angel-salazar-a8541a38b"><img
-              src="/src/assets/linkedin.png" alt="" class="w-10 h-10"></a>
+              src="@/assets/linkedin.png" alt="" class="w-10 h-10"></a>
 
         </div>
         <div>
-          <a href="https://github.com/Angel-Salazar-M"><img src="/src/assets/github.png" alt=""
+          <a href="https://github.com/Angel-Salazar-M"><img src="@/assets/github.png" alt=""
               class="w-12 h-12"></a>
         </div>
-        <div><a href="mailto:gustavosalazar.200713@gmail.com"><img src="/src/assets/envelope.png"
+        <div><a href="mailto:gustavosalazar.200713@gmail.com"><img src="@/assets/envelope.png"
               alt="" class="w-14 h-14"></a>
 
         </div>

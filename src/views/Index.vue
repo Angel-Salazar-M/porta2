@@ -22,22 +22,22 @@
             </div>
         </div>
         <div class="w-50 aspect-[5/6] overflow-hidden rounded-xl mx-auto my-auto">
-            <img src="C:\Users\gusta\porta2\src\assets\image1.png" alt="" class="w-fit h-fit object-cover">
+            <img src="@/assets/image1.png" alt="" class="w-fit h-fit object-cover">
         </div>
     </div>
 
     <div class="card bg-black/55 grid grid-cols-2 rounded-2xl shadow-md opacity-90 w-3/5 mx-auto">
         <div class="grid grid-rows-2">
             <div class="w-80 aspect-[4/5] overflow-hidden rounded-xl mx-auto my-auto h-45">
-                <img src="C:\Users\gusta\porta2\src\assets\54721367578_47b205f221_o.jpg" alt=""
+                <img src="@/assets/54721367578_47b205f221_o.jpg" alt=""
                     class="object-cover mx-auto">
             </div>
             <div class="grid grid-cols-2">
                 <div>
-                    <img src="C:\Users\gusta\porta2\src\assets\it-specialist-python.png" alt="">
+                    <img src="@/assets/it-specialist-python.png" alt="">
                 </div>
                 <div>
-                    <img src="C:\Users\gusta\porta2\src\assets\microsoft-office-specialist-excel-associate-microsoft-365-apps.png"
+                    <img src="@/assets/microsoft-office-specialist-excel-associate-microsoft-365-apps.png"
                         alt="">
                 </div>
             </div>
@@ -200,19 +200,19 @@
         <div class="card bg-[#D9D9D9]/20 grid rounded-2xl shadow-md opacity-90 w-9/10 mx-auto m-10">
             <div class="grid grid-cols-5">
                 <div>
-                    <img src="C:\Users\gusta\porta2\src\assets\html.png" alt="" class="w-40 h-40">
+                    <img src="@/assets/html.png" alt="" class="w-40 h-40">
                 </div>
                 <div>
-                    <img src="C:\Users\gusta\porta2\src\assets\github.png" alt="" class="w-40 h-40">
+                    <img src="@/assets/github.png" alt="" class="w-40 h-40">
                 </div>
                 <div>
-                    <img src="C:\Users\gusta\porta2\src\assets\mysql-database.png" alt="" class="w-40 h-40">
+                    <img src="@/assets/mysql-database.png" alt="" class="w-40 h-40">
                 </div>
                 <div>
-                    <img src="C:\Users\gusta\porta2\src\assets\python.png" alt="" class="w-40 h-40">
+                    <img src="@/assets/python.png" alt="" class="w-40 h-40">
                 </div>
                 <div>
-                    <img src="C:\Users\gusta\porta2\src\assets\text.png" alt="" class="w-40 h-40">
+                    <img src="@/assets/text.png" alt="" class="w-40 h-40">
                 </div>
             </div>
         </div>
@@ -234,19 +234,19 @@
                 <div class="grid grid-cols-4 grid-rows-1 w-80 place-self-end">
                     <div>
           <a href="https://www.linkedin.com/in/angel-salazar-a8541a38b"><img
-              src="C:\Users\gusta\porta2\src\assets\linkedin.png" alt="" class="w-13 h-13"></a>
+              src="@/assets/linkedin.png" alt="" class="w-13 h-13"></a>
 
         </div>
         <div>
-          <a href="https://github.com/Angel-Salazar-M"><img src="C:\Users\gusta\porta2\src\assets\github.png" alt=""
+          <a href="https://github.com/Angel-Salazar-M"><img src="@/assets/github.png" alt=""
               class="w-12 h-12"></a>
         </div>
-        <div><a href="mailto:gustavosalazar.200713@gmail.com"><img src="C:\Users\gusta\porta2\src\assets\envelope.png"
+        <div><a href="mailto:gustavosalazar.200713@gmail.com"><img src="@/assets/envelope.png"
               alt="" class="w-14 h-14"></a>
 
         </div>
         <div>
-            <a href="https://www.instagram.com/angel_gggsm"><img src="C:\Users\gusta\porta2\src\assets\instagram.png" alt="" class="w-14 h-14"></a>
+            <a href="https://www.instagram.com/angel_gggsm"><img src="@/assets/instagram.png" alt="" class="w-14 h-14"></a>
         </div>
                 </div>
             </div>
