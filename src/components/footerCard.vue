@@ -12,19 +12,19 @@
                 <div class="grid grid-cols-4 grid-rows-1 w-80 place-self-end">
                     <div>
           <a href="https://www.linkedin.com/in/angel-salazar-a8541a38b"><img
-              src="C:\Users\gusta\porta2\src\assets\linkedin.png" alt="" class="w-13 h-13"></a>
+              src="@/assets/linkedin.png" alt="" class="w-13 h-13"></a>
 
         </div>
         <div>
-          <a href="https://github.com/Angel-Salazar-M"><img src="C:\Users\gusta\porta2\src\assets\github.png" alt=""
+          <a href="https://github.com/Angel-Salazar-M"><img src="@/assets/github.png" alt=""
               class="w-12 h-12"></a>
         </div>
-        <div><a href="mailto:gustavosalazar.200713@gmail.com"><img src="C:\Users\gusta\porta2\src\assets\envelope.png"
+        <div><a href="mailto:gustavosalazar.200713@gmail.com"><img src="@/assets/envelope.png"
               alt="" class="w-14 h-14"></a>
 
         </div>
         <div>
-            <a href="https://www.instagram.com/angel_gggsm"><img src="C:\Users\gusta\porta2\src\assets\instagram.png" alt="" class="w-14 h-14"></a>
+            <a href="https://www.instagram.com/angel_gggsm"><img src="@/assets/instagram.png" alt="" class="w-14 h-14"></a>
         </div>
                 </div>
             </div>

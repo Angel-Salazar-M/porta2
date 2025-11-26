@@ -17,13 +17,13 @@
     </div>
     <div class="grid grid-cols-3 w-60 place-self-end place-items-center place-content-center my-auto">
         <div>
-            <img src="C:\Users\gusta\porta2\src\assets\linkedin.png" alt="" class="w-10 h-10">
+            <img src="@/assets/linkedin.png" alt="" class="w-10 h-10">
         </div>
         <div>
-            <img src="C:\Users\gusta\porta2\src\assets\github.png" alt="" class="w-12 h-12">
+            <img src="@/assets/github.png" alt="" class="w-12 h-12">
         </div>
         <div>
-            <img src="C:\Users\gusta\porta2\src\assets\envelope.png" alt="" class="w-14 h-14">
+            <img src="@/assets/envelope.png" alt="" class="w-14 h-14">
         </div>
 
     </div>
