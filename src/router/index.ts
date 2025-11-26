@@ -25,6 +25,12 @@ const routes = [
 
   {
     path: '/',
+    name: 'principal',
+    component: Index
+  },
+
+  {
+    path: '/home',
     name: 'home',
     component: Index
   },
