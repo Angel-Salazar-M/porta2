@@ -1,3 +1,5 @@
+import { createRouter, createWebHashHistory } from 'vue-router'
+
 import categorias from '../views/categorias.vue'
 import Index from '../views/Index.vue'
 import programacion from '../views/programacion.vue'
@@ -13,7 +15,6 @@ import excel from '../views/excel.vue'
 import svaihealth from '../views/svaihealth.vue'
 import scriptGo2024 from '../views/scriptGo2024.vue'
 import scriptGo2025 from '../views/scriptGo2025.vue'
-
 
 const routes = [
   { path: '/', redirect: '/home' },
@@ -32,7 +33,6 @@ const routes = [
 
   { path: '/python', name: 'python', component: python },
   { path: '/excel', name: 'excel', component: excel },
-
   { path: '/svaihealth', name: 'svaihealth', component: svaihealth },
 
   { path: '/scriptgo2024', name: 'scriptgo2024', component: scriptGo2024 },
@@ -45,5 +45,9 @@ const routes = [
   }
 ]
 
+const router = createRouter({
+  history: createWebHashHistory(),
+  routes
+})
 
-export default routes
+export default router
