@@ -1,4 +1,3 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
 import categorias from '../views/categorias.vue'
 import Index from '../views/Index.vue'
 import programacion from '../views/programacion.vue'
@@ -17,107 +16,34 @@ import scriptGo2025 from '../views/scriptGo2025.vue'
 
 
 const routes = [
-  {
-    path: '/categorias',
-    name: 'categorias',
-    component: categorias
-  },
+  { path: '/', redirect: '/home' },
+
+  { path: '/home', name: 'home', component: Index },
+  { path: '/categorias', name: 'categorias', component: categorias },
+  { path: '/programacion', name: 'programacion', component: programacion },
+  { path: '/idiomas', name: 'idiomas', component: idiomas },
+  { path: '/certificaciones', name: 'certificaciones', component: Certificaciones },
+  { path: '/competencias', name: 'competencias', component: competencias },
+
+  { path: '/toeic', name: 'toeic', component: diplomaToeic },
+  { path: '/japones', name: 'japones', component: diplomaJapones },
+  { path: '/firstglobal', name: 'firstglobal', component: diplomaFirstGlobal },
+  { path: '/esen', name: 'esen', component: diplomaEsen },
+
+  { path: '/python', name: 'python', component: python },
+  { path: '/excel', name: 'excel', component: excel },
+
+  { path: '/svaihealth', name: 'svaihealth', component: svaihealth },
+
+  { path: '/scriptgo2024', name: 'scriptgo2024', component: scriptGo2024 },
+  { path: '/scriptgo2025', name: 'scriptgo2025', component: scriptGo2025 },
 
   {
-    path: '/',
-    name: 'principal',
-    component: Index
-  },
-
-  {
-    path: '/home',
-    name: 'home',
-    component: Index
-  },
-
-  {
-    path: '/programacion',
-    name: 'programacion',
-    component: programacion
-  },
-
-  {
-    path: '/idiomas',
-    name: 'idiomas',
-    component: idiomas
-  },
-
-  {
-    path: '/certificaciones',
-    name: 'certificaciones',
-    component: Certificaciones
-  },
-
-  {
-    path: '/competencias',
-    name: 'competencias',
-    component: competencias
-  },
-
-  {
-    path: '/toeic',
-    name: 'toeic',
-    component: diplomaToeic
-  },
-
-  {
-    path: '/japones',
-    name: 'japones',
-    component: diplomaJapones
-  },
-
-  {
-    path: '/FIRSTGLOBAL',
-    name: 'FIRSTGLOBAL',
-    component: diplomaFirstGlobal
-  },
-
-  {
-    path: '/ESEN',
-    name: 'ESEN',
-    component: diplomaEsen
-  },
-
-  {
-    path: '/python',
-    name: 'python',
-    component: python
-  },
-
-  {
-    path: '/excel',
-    name: 'excel',
-    component: excel
-  },
-
-  {
-    path: '/svaihealth',
-    name: 'svaihealth',
-    component: svaihealth
-  },
-
-  {
-    path: '/scriptgo2024',
-    name: 'scriptgo2024l',
-    component: scriptGo2024
-  },
-
-  {
-    path: '/scriptgo2025',
-    name: 'scriptgo2025',
-    component: scriptGo2025
-  },
+    path: '/:pathMatch(.*)*',
+    name: 'not-found',
+    component: () => import('../views/NotFound.vue')
+  }
 ]
 
-const router = createRouter({
-  history: createWebHashHistory(),
-  routes
-})
 
-
-export default router
+export default routes
