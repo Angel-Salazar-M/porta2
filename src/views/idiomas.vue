@@ -58,7 +58,8 @@ import footerCard from '../components/footerCard.vue'
                     <span class="text-center text-sm">TOEIC resources</span>
                 </div>
                 <div class="w-full grid col-span-3 mt-3">
-                    <a href="/toeic" class="bg-[#FF0202] rounded-full shadow-xl py-1 px-2 w-fit mx-auto">Ver acreditaciones</a>
+            <router-link to="/toeic" class="bg-[#FF0202] rounded-full shadow-xl py-1 px-2 w-fit mx-auto">ver acreditaciones</router-link>
+                    
                 </div>
             </div>
         </div>
@@ -85,7 +86,8 @@ import footerCard from '../components/footerCard.vue'
                     <span class="text-center text-sm">Zoom</span>
                 </div>
                 <div class="w-full grid col-span-3 mt-3">
-                    <a href="/japones" class="bg-[#FF0202] rounded-full shadow-xl py-1 px-2 w-fit mx-auto">Ver acreditaciones</a>
+            <router-link to="/japones" class="bg-[#FF0202] rounded-full shadow-xl py-1 px-2 w-fit mx-auto">ver acreditaciones</router-link>
+
                 </div>
             </div>
         </div>

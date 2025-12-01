@@ -33,7 +33,7 @@ import footerCard from '../components/footerCard.vue'
                 </div>
             </div>
             <div>
-                <a href="/svaihealth" class="rounded-full bg-[#FF0202] py-1 px-2 hover:bg-red-600">ver detalles de proyecto</a>
+            <router-link to="/svaihealth" class="rounded-full bg-[#FF0202] py-1 px-2 hover:bg-red-600">ver detalles de proyecto</router-link>
             </div>
 
         </div>
@@ -60,7 +60,7 @@ import footerCard from '../components/footerCard.vue'
                 </div>
             </div>
             <div>
-                <a href="/scriptgo2024" class="rounded-full bg-[#FF0202] py-1 px-2 hover:bg-red-600">ver detalles de proyecto</a>
+            <router-link to="/scriptgo2024" class="rounded-full bg-[#FF0202] py-1 px-2 hover:bg-red-600">ver detalles de proyecto</router-link>
             </div>
 
         </div>
@@ -95,7 +95,7 @@ import footerCard from '../components/footerCard.vue'
                 </div>
             </div>
             <div>
-                <a href="/scriptgo2025" class="rounded-full bg-[#FF0202] py-1 px-2 hover:bg-red-600">ver detalles de proyecto</a>
+            <router-link to="/scriptgo2025" class="rounded-full bg-[#FF0202] py-1 px-2 hover:bg-red-600">ver detalles de proyecto</router-link>
             </div>
 
         </div>

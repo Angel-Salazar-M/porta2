@@ -57,8 +57,7 @@
                     certificaciones en inglés y en herramientas tecnológicas como Excel y Python.</span>
             </div>
             <div class="grid place-content-center">
-                <a href="/categorias" class="bg-[#FF0202]/40 rounded-full p-2 hover:text-white text-white no-underline">ver
-                    proyectos</a>
+            <router-link to="/categorias" class="bg-[#FF0202]/40 rounded-full p-2 hover:text-white text-white no-underline">ver proyectos</router-link>
             </div>
         </div>
     </div>

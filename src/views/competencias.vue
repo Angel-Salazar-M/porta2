@@ -18,8 +18,7 @@
                     lenguaje de programación escogido (Python).</span></div>
             <div class="grid grid-cols-3 h-fit gap-2 mt-2">
                 <div class="w-full grid col-span-3 mt-3">
-                    <a href="/ESEN" class="bg-[#FF0202] rounded-full shadow-xl py-1 px-2 w-fit mx-auto">Ver
-                        acreditaciones</a>
+            <router-link to="/esen" class="bg-[#FF0202] rounded-full shadow-xl py-1 px-2 w-fit mx-auto">ver acreditaciones</router-link>
                 </div>
             </div>
         </div>
@@ -38,8 +37,7 @@
                     armar el diseño del robot usado en la competencia.</span></div>
             <div class="grid grid-cols-3 h-fit gap-2 mt-2">
                 <div class="w-full grid col-span-3 mt-3">
-                    <a href="/FIRSTGLOBAL" class="bg-[#FF0202] rounded-full shadow-xl py-1 px-2 w-fit mx-auto">Ver
-                        acreditaciones</a>
+            <router-link to="/firstglobal" class="bg-[#FF0202] rounded-full shadow-xl py-1 px-2 w-fit mx-auto">ver acreditaciones</router-link>
                 </div>
             </div>
         </div>
